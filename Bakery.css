@@ -5,31 +5,32 @@
                 
             }
             .product-div {
-                border: 3px #ffffff solid;
-                                width: 450px;
+                border: 3px #be96ff9f solid;
+                width: 400px;
                 margin-bottom: 30px;
                 text-align: center;
                 font-family: Arial;
+                background-color: #ffffff;
             }
 
             .container {
                 display: flex;
-                flex-flow: row;
+                /* flex-flow: row; */
                 justify-content: space-around;
-                flex-wrap: wrap;
+                /* flex-wrap: wrap; */
                 text-align: center;
-                background-color: #ffffff;
+                flex-direction: row;
             }
 
             img {
-                width: 400px;
-                height: 400px;
+                width: 250px;
+                height: 250px;
                 margin: 0 auto;
                 display: block
             }
 
             body {
-               background-image: url("https://i2.wp.com/wallpapercave.com/wp/wp4294282.jpg");
+               background-image: url("./img/tải\ xuống.png");
             }
 
             .text-center {
@@ -39,12 +40,30 @@
 
             .details {
                 margin-top: 20px;
+                padding: 5px;
+                outline: 0;
+                font-size: 17px;
+                color: rgb(0, 0, 0);
+                background: linear-gradient(
+                  to right,
+                  #fdde5c,
+                  #ffcb20,
+                  hsl(27, 94%, 67%),
+                  #ff9f45,
+                  #ffc16f,
+                  #ffe799,
+                  #fffbc7d5
+                );
+                border-radius: 3px;
+                border: 0;
+                box-shadow: none;
+                cursor: pointer;
             }
 
             .detail-display {
                 /* width: 30%; */
                 padding: 0 5%;
-                display: flex;
+                /* display: flex; */
                 justify-content: space-around;
                 align-items: center;
                 
@@ -52,4 +71,10 @@
             .detail-display h1{
                 font-family: authentic !important;
             }
-       
+       #fod{
+           text-align: center;
+           font-size: 50px;
+       }
+       h1{
+        font-family: 'Quicksand', sans-serif;
+       }
