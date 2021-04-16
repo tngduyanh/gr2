@@ -38,9 +38,174 @@
             
 
     </style>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial
+        }
+      
+        .divsticky {
+          background-image: url("https://cdn130.picsart.com/286298568006201.jpg?type=webp&to=min&r=640");
+          background-size: cover;
+          min-height: 50px;
+        }
+      
+        .topnav {
+          overflow: hidden;
+        }
+      
+        .topnav a {
+          float: left;
+          display: block;
+          color: #000000;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+      
+        .active {
+          background-color: #9395ff;
+          color: white;
+        }
+      
+        .topnav .icon {
+          display: none;
+        }
+      
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+      
+        .dropdown .dropbtn {
+          font-size: 17px;
+          border: none;
+          outline: none;
+          color: rgb(0, 0, 0);
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+      
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+        }
+      
+        .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+      
+        .topnav a:hover,
+        .dropdown:hover .dropbtn {
+          background-color: rgb(139, 141, 255);
+          color: white;
+        }
+      
+        .dropdown-content a:hover {
+          background-color: #ddd;
+          color: rgb(129, 120, 253);
+        }
+      
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+      
+        @media screen and (max-width: 600px) {
+      
+          .topnav a:not(:first-child),
+          .dropdown .dropbtn {
+            display: none;
+          }
+      
+          .topnav a.icon {
+            float: right;
+            display: block;
+          }
+        }
+      
+        @media screen and (max-width: 600px) {
+          .topnav.responsive {
+            position: relative;
+          }
+      
+          .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+      
+          .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+      
+          .topnav.responsive .dropdown {
+            float: none;
+          }
+      
+          .topnav.responsive .dropdown-content {
+            position: relative;
+          }
+      
+          .topnav.responsive .dropdown .dropbtn {
+            display: block;
+            width: 100%;
+            text-align: left;
+          }
+        }
+      </style>
+      
 </head>
 <body>
     
+  <div class="divsticky">
+    <div class="topnav">
+      <div>
+        <h1 class="Name" style="font-family: authentic;" >Lunar</h1>
+        <h2 class="slogan" style="font-family: Moon Flower;">Great taste in every bite</h2>
+      </div>
+    </div>
+    <div class="topnav" style="font-family: 'Courier New', Courier, monospace;">
+
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <div class="dropdown">
+        <button class="dropbtn">Food
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Bread</a>
+          <a href="#">Cakes</a>
+          <a href="#">Sweets</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Drink
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Hot</a>
+          <a href="#">Cold</a>
+          <a href="#">Fresh</a>
+        </div>
+      </div>
+      <a href="./About">About</a>
+      <!-- <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> -->
+    </div>
+  </div>
     <div class="container">
         <div class="product-display">
            <img
@@ -50,7 +215,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quidem reiciendis totam commodi quam, consequatur quo similique beatae, assumenda delectus molestiae modi maiores sapiente possimus sequi. Unde corrupti eveniet vel?
            </p>
         </div>
-        <hr>
+     
         <div class="detail-display">
             <h2>product: juice</h2>
             <p>price:<strong>50,000đ</strong> </p>
@@ -66,9 +231,9 @@
                     <option>original</option>
                 </select>
             </ul>
-            <button>Purchase</button>
+            <button id="buy">Purchase</button>
         </div>
     </div>
-    <button class="details"> <a href="bakery.html"> Back home </a> </button>
+    <a href="bakery.html"><button class="details" id="btn3">  Back home </button></a> 
 </body>
 </html>

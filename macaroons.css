@@ -5,3 +5,402 @@ body{
     background-color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#btn3 {
+    padding: 5px;
+    outline: 0;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(
+      to right,
+      #fdde5c,
+      #ffcb20,
+      hsl(27, 94%, 67%),
+      #ff9f45,
+      #ffc16f,
+      #ffe799,
+      #fffbc7d5
+    );
+    border-radius: 3px;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+  }
+#buy{
+    padding: 5px;
+    outline: 0;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(
+      to right,
+      #ffb4b4,
+      #ff7487,
+      rgb(255, 95, 95),
+      #f34141e7,
+      #ff8f45,
+      #ffcf67,
+      #ffe6a1d5
+    );
+    border-radius: 3px;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer; 
+}
+.topnav div h1{
+    margin-right: 20px;
+}
+.topnav div h2{
+    margin-right: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./img/tải\ xuống.png") ;
+  }
+  
+  .topnav {
+    /* overflow:scroll; */
+    display: flex;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #99b2ff;
+    text-align: center;
+    padding: 14px 16px;
+    height: fit-content;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #99b2ff
+    ;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #99b2ff;
+    color: white;
+  }
+  .logo_style{
+    width: 12%;
+    border-radius: 100%;
+    
+  }
+  .Name{
+    float:left;
+    text-align: left;
+  }
+  .slogan{
+    float: left;
+    text-align: left;
+  }
+    @font-face {
+          font-family: authentic;
+          src: url("./Font/Authentic_Signature.ttf");
+  }
+  @font-face {
+    font-family: Moon Flower;
+    src: url("Font/Moon\ Flower.ttf");
+  }
+    
+  .divsticky {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* padding: 50px; */
+    font-size: 20px;
+  }
+  
+
+body { 
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: rgb(146, 144, 255);
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}*
+* {box-sizing: border-box}
+body {font-family:'Courier New', Courier, monospace; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+float left
+overflow hidden
+
+
+.dropdown .dropbtn {
+font-size: 17px;    
+border: none;
+outline: none;
+color: black;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: lavender;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: white ;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@font-face {
+  font-family: authentic;
+  src: url("./Font/Authentic_Signature.ttf");
+  
+}
+.product-div {
+  border: 3px #ffffff solid;
+                  width: 450px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  display: block
+}
+
+/* body {
+ background-image: url("./img/tải\ xuống.png");
+} */
+
+.text-center {
+  text-align: center;
+  font-family: fantasy;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.detail-display {
+  /* width: 30%; */
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.detail-display h1{
+  font-family: authentic !important;
+}
+
+@font-face {
+  font-family:Pecita;
+  src: url(./Font/Pecita.ttf);
+}
+@font-face {
+  font-family:Waltograph;
+  src: url(./Font/waltograph42.ttf);
+}
+
+@font-face {
+  font-family:Sushi King;
+  src: url(./Font/Sushi\ King\ -Personal\ Use.ttf);
+}
+@font-face {
+  font-family:Caroline;
+  src: url(./Font/Caroline.ttf);
+}
