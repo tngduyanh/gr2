@@ -2,7 +2,7 @@ body{
     background-image: url("./img/tải\ xuống.png");
 }
 .container{
-    background-color: beige;
+    background-color: rgb(255, 248, 236);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #btn3 {
