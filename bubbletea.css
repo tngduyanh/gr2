@@ -2,48 +2,49 @@ body{
     background-image: url("./img/tải\ xuống.png");
 }
 .container{
-    background-color: rgb(255, 248, 236);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f8f7ff;
+  margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #btn3 {
-    padding: 5px;
-    outline: 0;
-    font-size: 17px;
-    color: rgb(0, 0, 0);
-    background: linear-gradient(
-      to right,
-      #fdde5c,
-      #ffcb20,
-      hsl(27, 94%, 67%),
-      #ff9f45,
-      #ffc16f,
-      #ffe799,
-      #fffbc7d5
-    );
-    border-radius: 3px;
-    border: 0;
-    box-shadow: none;
-    cursor: pointer;
-  }
+  padding: 5px;
+  outline: 0;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right,
+    #3f6cff,
+    #5956ff,
+    #745cfa,
+    #845af7,
+    #9068ff,
+    #8569ff,
+    #5659fcd5
+  );
+  border-radius: 3px;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
 #buy{
-    padding: 5px;
-    outline: 0;
-    font-size: 17px;
-    color: rgb(0, 0, 0);
-    background: linear-gradient(
-      to right,
-      #ffb4b4,
-      #ff7487,
-      rgb(255, 95, 95),
-      #f34141e7,
-      #ff8f45,
-      #ffcf67,
-      #ffe6a1d5
-    );
-    border-radius: 3px;
-    border: 0;
-    box-shadow: none;
-    cursor: pointer; 
+  padding: 5px;
+  outline: 0;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(
+    to right,
+    #ffe2ac,
+    #fffd74,
+    rgb(194, 255, 95),
+    #8cff5fe7,
+    #66ff99,
+    #83ffc1,
+    #7df6ffd5
+  );
+  border-radius: 3px;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer; 
 }
 .topnav div h1{
     margin-right: 20px;

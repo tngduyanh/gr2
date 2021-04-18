@@ -357,3 +357,6 @@ img {
   font-family:Caroline;
   src: url(./Font/Caroline.ttf);
 }
+img{
+  border-radius: 1%;
+}

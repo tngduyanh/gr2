@@ -44,17 +44,17 @@
                 padding: 5px;
                 outline: 0;
                 font-size: 17px;
-                color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
                 background: linear-gradient(
-                  to right,
-                  #fdde5c,
-                  #ffcb20,
-                  hsl(27, 94%, 67%),
-                  #ff9f45,
-                  #ffc16f,
-                  #ffe799,
-                  #fffbc7d5
-                );
+               to right,
+               #3f6cff,
+               #5956ff,
+               #745cfa,
+               #845af7,
+               #9068ff,
+               #8569ff,
+               #5659fcd5
+  );
                 border-radius: 3px;
                 border: 0;
                 box-shadow: none;
@@ -70,14 +70,14 @@
                 
             }
             .detail-display h1{
-                font-family: authentic !important;
+                font-family: 'authentic' !important;
             }
        #fod{
            text-align: center;
            font-size: 50px;
        }
        h1{
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'authentic';
        }
        .topnav div h1{
         margin-right: 20px;
@@ -438,4 +438,12 @@
       font-family:Caroline;
       src: url(./Font/Caroline.ttf);
     }
-    
+    .product-div{
+      border-radius: 3%;
+    }
+    img{
+      border-radius: 1%;
+    }
+    .container{
+      font-size: 20px;
+    }
